@@ -1,0 +1,120 @@
+body {
+    background-image:url('../images/seamless_metal_texture.jpg');
+    background-repeat:repeat;
+}
+
+.loginSuccess {
+    background-color: rgba(0, 255, 0, 0.4);
+    font-size: 80%;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.loginFailure {
+    background-color: rgba(255, 0, 0, 0.8);
+    font-size: 80%;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+#loginBoxContainer {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color:rgba(255, 255, 255, 0.298039);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-bottom:25px;
+    min-height:20px;
+    padding:5px;
+    position:relative;
+}
+
+#loginBox {
+    -webkit-box-shadow:#000000 0 0 10px;
+    background-color:rgba(253, 253, 253, 0.85098);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow:#000000 0 0 10px;
+    color:#000000;
+    min-height:30px;
+    padding:20px;
+    position:relative;
+}
+
+#loginTable td{
+    vertical-align: text-bottom;
+
+}
+
+#submitButton{
+    float: right;
+}
+
+input {
+    width: 100%;
+}
+
+#homeBoxContainer {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color:rgba(255, 255, 255, 0.298039);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    margin-bottom:25px;
+    min-height:20px;
+    padding:5px;
+    position:relative;
+}
+
+#homeBox {
+    -webkit-box-shadow:#000000 0 0 10px;
+    background-color:rgba(253, 253, 253, 0.85098);
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow:#000000 0 0 10px;
+    color:#000000;
+    min-height:30px;
+    padding:20px;
+    position:relative;
+}
+
+h2 {
+    color: #000000;
+    padding: 5px;
+}
+
+#title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color:rgba(253, 253, 253, 0.85098);
+    -webkit-box-shadow:#000000 0 0 10px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    box-shadow:#000000 0 0 10px;
+}
+
+#countdownTimer {
+    float: right;
+}

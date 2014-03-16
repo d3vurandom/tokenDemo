@@ -1,0 +1,26 @@
+<?php
+   /**
+    * This file is used to provide global configuration settings,
+    * It needs to be moved to a non-web-accessible directory
+    */
+
+    //Database connection settings
+    $databaseUsername = '####';
+    $databasePassword = "####";
+    $databaseName = '####';
+    $databaseServerLocation = '####';
+
+    //cookie information
+    $cookieName = "####_######_###";     // just a string for cookie identification just use a string,
+                                                //apparently "."s get converted to "_"s so ya I am not sure what else gets changed
+    $domainPath = ".#####.####.###";    // this is used in the cookie to determine what domain have access to the cookie
+
+    //token security settings
+    $tokenPadLength = ##;                       // must be between 18 and 35
+    $baseConvertTimestampValue = ##;            // must be between 8 and 20
+    $baseConvertRandomValue = ##;               // must be between 8 and 20
+    $baseConvertUserIDValue = ##;               // must be between 8 and 20
+    $baseConvertIPAddressValue = ##;            // must be between 8 and 20
+    $tokenSalt = "####";    //must be random length > 20 characters
+    $maximumIdleTime = 60;                     //time in seconds
+?>
